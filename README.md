@@ -1,6 +1,6 @@
 # IEA Electricity Generation Data Scraper
 
-Collected data: [kaggle.com](https://www.kaggle.com/datasets/ccanb23/iea-monthly-electricity-statistics)
+Collected data: [kaggle.com/datasets/ccanb23/iea-monthly-electricity-statistics](https://www.kaggle.com/datasets/ccanb23/iea-monthly-electricity-statistics)
 
 This Python script retrieves monthly energy data for a specific country, year, month, and product from the International Energy Agency (IEA) API and stores it in a CSV file. The script makes API requests to get available years, products, and countries, and uses this information to loop through all possible combinations of country, year, month, and product. The retrieved data includes the amount of electricity generated in gigawatt-hours (GWh), the share of the product in the total electricity generation for the country, and other related information. The script uses the CSV file to store the data and appends the new data to the existing data if the file already exists. This script is released under the MIT License.
 
